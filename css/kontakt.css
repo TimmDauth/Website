@@ -1,0 +1,55 @@
+/*reset*/
+body,p, h1,a, figure, ul { 
+    margin: 0;
+    padding: 0;
+}/*styles */   
+
+body {
+    font-family: Arial, sans-serif;}
+
+.images { width:100%;
+    height: auto}
+h1 {font-family: Helvetica, sans-serif;
+font-size: 16px;
+margin: 15px}
+
+ul { list-style: none;
+margin-bottom: 50px;
+margin-top: 50px;
+font-size: 12px;
+margin-left: 15px;}
+
+body {
+    font-family: Arial, sans-serif; background-color:antiquewhite}
+
+.images { width:100%;
+    height: auto}
+
+
+
+
+
+a { text-decoration: none;
+color: black;
+position: relative;
+font-size: 10px;
+    margin-left: 15px;
+}
+
+ a:hover{ color: darkslategray;
+ }
+
+ a::after{
+    content:'';
+    height: 2px;
+    width: 0;
+    background-color: darkgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    transition: 100ms ease-in-out}
+
+
+
+a:hover::after{
+    width: 100%;}
