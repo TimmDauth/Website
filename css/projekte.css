@@ -136,7 +136,7 @@ font-weight: 100;}
     position: relative;
     vertical-align: middle;
     top: 20px;
-    left: 400%;
+    left: 250%;
     
     
 }
@@ -195,6 +195,57 @@ color: darkslategray}
              margin-top: 0;
 
 }
+
+
+.construction{grid-row: 2;
+grid-column: 2;}
+
+
+/*footer*/
+footer {display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.IG a{text-decoration: none; color: black; font-weight: 100; position: relative;}
+.IG a:hover{color:darkslategray;}
+.IG a::after{
+    content:'';
+    height: 1px;
+    width: 0;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    transition: 100ms ease-in-out}
+
+
+
+.IG a:hover::after{
+    width: 100%;}
+
+
+
+
+footer a{text-decoration: none; color: black; font-weight: 100; position: relative;}
+footer a:hover{color:darkslategray;}
+footer a::after{
+    content:'';
+    height: 1px;
+    width: 0;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    transition: 100ms ease-in-out}
+footer a:hover::after{width: 100%;}
+
+
+
+
+
+/*footer ende*/
 /*Pop up*/
 
 
@@ -231,6 +282,10 @@ color: darkslategray}
 
  
 }
+
+
+
+
 /*Mobil*/
 #toggle_button{display: none;}
 label[for="toggle_button"] span{font-size: 40px;}
@@ -303,6 +358,10 @@ label[for="toggle_button"]{display: none;}
         .beschreibung {padding-top: 100px;
         margin: 25px
         }
+        
+        .beschreibungqubo, .beschreibunganika{margin-left: 25px;}
+        
+        .construction{padding: 50px;}
         
         
 

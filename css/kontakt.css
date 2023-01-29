@@ -37,6 +37,7 @@ font-size: 10px;
 }
 
  a:hover{ color: darkslategray;
+     text-decoration: none;
  }
 
  a::after{
@@ -53,3 +54,8 @@ font-size: 10px;
 
 a:hover::after{
     width: 100%;}
+
+
+
+
+
